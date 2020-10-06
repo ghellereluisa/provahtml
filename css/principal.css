@@ -1,0 +1,179 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Roboto-Regular";
+    line-height: 1.8em;
+    color: #14336A;    
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+
+
+
+#navbar {
+    background:  #cedada;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 100%;    
+    margin: 0;
+    border-bottom: #ffffff 1px solid;
+}
+
+#navbar div {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto auto 30px;
+    
+}
+
+#navbar img {
+    width: 75px;  
+    height: auto;
+}
+
+#navbar ul a {
+    text-decoration: none;
+    color:  #14336A;
+    padding: 10px 30px;
+    border-radius: 6.5px;
+    margin: 10px 20px;
+}
+
+#navbar ul a:hover {
+    color: white;
+    background-color:  #14336A;
+    border-radius: 6.5px;
+    transition: 0.3s;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    width: 100%;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {    
+    list-style-type: none;    
+    margin: 50px;
+    text-align: center;
+}
+
+
+#footer {
+    background-color: #CEDADA;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;    
+    color: #14336A;
+}
+
+#footer a, a:visited, a:active {
+    text-decoration: none;    
+    color: #14336A;
+}
+
+
+#contato {
+    background:  #14336A;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 100%;    
+    margin: 0;
+    border-bottom: #14336A 1px solid;
+}
+
+#contato ul a {
+    text-decoration: none;
+    color:  #CEDADA;
+    padding: 10px 30px;
+    border-radius: 6.5px;
+    margin: 10px 20px;
+}
+
+
+#contato ul a:hover {
+    color: #14336a;
+    background-color:  #CEDADA;
+    border-radius: 6.5px;
+    transition: 0.3s;
+    margin: 10px 20px;
+    padding: 10px 30px;
+    width: 100%;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {    
+    list-style-type: none;    
+    margin: 50px;
+    text-align: center;
+}
+
+
+
+.rede-social{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 10px 0;
+    margin-bottom: 20px;
+    
+}
+
+.icone{
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;    
+}
+
+
+.fundo {
+    
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    
+}
+
+.fundo {
+    background-image: url('../assets/fundo.png');
+}
+
+.texto {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: #14336a;
+    font-size: 27px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+}
+
+.texto .caixa {
+    background-color: #14336a;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
